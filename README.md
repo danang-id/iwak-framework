@@ -131,7 +131,6 @@ In the `ExampleController.js` write as follows:
 +
 + const Validator = use('Validator');
 + const Response  = use('Response');
-+ const co = use('co');
 
 + class UserController {
 +   constructor() {
@@ -167,7 +166,7 @@ Finally, set the environment variable in the `.env` file:
 + DB_DATABASE=
 + DB_USERNAME=
 + DB_PASSWORD=
-+ DB_MAX_CONNECTION=1
++ DB_MIN_CONNECTION=1
 + DB_MAX_CONNECTION=
 + 
 + TOKEN_SECRET=secret
