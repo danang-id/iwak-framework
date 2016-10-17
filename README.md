@@ -4,7 +4,7 @@ A node micro-framework based on express.js
 
 ## Installation
 
-Since this framework is published to npm, you can install this with following command:
+Since this framework is published to npm, you can install this with the following command:
 
 ```shell
 $ npm install --save iwak-framework
@@ -14,7 +14,7 @@ $ npm install --save iwak-framework
 
 > This is minimal configuration tutorial to make your project running.
 
-First of all, you need to make project structure like this:
+First of all, you need to make a project structure like this:
 
 ```
 .
@@ -43,7 +43,7 @@ First of all, you need to make project structure like this:
 └── .env
 ```
 
-Now, let see `config/app.js` file, it must contain an express configuration, i.e setting `Access-Control-Allow-Origin`. As you expect, it just contain express middleware like this:
+Now, let check `config/app.js` file, it must contain an express configuration, i.e setting `Access-Control-Allow-Origin`. As expected, it only contains express middleware like this:
 
 ```diff
 + 'use strict';
@@ -57,7 +57,7 @@ Now, let see `config/app.js` file, it must contain an express configuration, i.e
 + };
 ```
 
-then, we'll focus on file `config/database.js`. This file will be loaded by `iwak-framework` with `bookshelf` object, so you must write it like follow:
+Then, we'll focus on the file `config/database.js`. This file will be loaded by `iwak-framework` with `bookshelf` object, so you must write it as follows:
 
 ```diff
 + 'use strict';
@@ -66,7 +66,7 @@ then, we'll focus on file `config/database.js`. This file will be loaded by `iwa
 + };
 ```
 
-and, since it will retreive `bookshelf` object, so you can add plugin on it:
+And, since it will retrieve `bookshelf` object, you can add plugins to it:
 
 ```diff
 + 'use strict';
@@ -76,7 +76,7 @@ and, since it will retreive `bookshelf` object, so you can add plugin on it:
 + };
 ```
 
-Now, for file `config/http.js`. It contain http server and will be loaded by `iwak-framework` with `express` object:
+Now, for the file `config/http.js`. It contain a http server and will be loaded by `iwak-framework` with `express` object:
 
 ```diff
 + 'use strict';
@@ -91,7 +91,7 @@ Now, for file `config/http.js`. It contain http server and will be loaded by `iw
 + };
 ```
 
-Ok, then in file `server.js` where located in project root, we'll put this code to make app running:
+Ok, then in the file `server.js` where located in project root, we'll put this code to make the app running:
 
 ```diff
 + 'use strict';
@@ -105,9 +105,9 @@ Ok, then in file `server.js` where located in project root, we'll put this code 
 
 > Wait, what is app/routes?
 
-Sorry, I'm not forget it, but now I will tell you what is it.
+Sorry, I didn't forget, but now I will explain to you what is it.
 
-`app/routes.js` will contain http route code. For example, you can write:
+`app/routes.js` will contain the http route code. For example, you can write:
 
 ```diff
 + 'use strict';
@@ -122,9 +122,9 @@ Sorry, I'm not forget it, but now I will tell you what is it.
 
 ```
 
-> Then make another directory inside `controller` with name `api` and make `ExampleController.js` inside it.
+> Then make another directory inside the `controller` with name `api` and create `ExampleController.js` inside it.
 
-In `ExampleController.js` write this:
+In the `ExampleController.js` write as follows:
 
 ```diff
 + 'use strict';
@@ -150,7 +150,7 @@ In `ExampleController.js` write this:
 + }
 ```
 
-And last, set environment variable in `.env` file:
+Finally, set the environment variable in the `.env` file:
 
 ```diff
 + NODE_ENV=development
@@ -179,7 +179,7 @@ And last, set environment variable in `.env` file:
 $ node server.js
 ```
 
-Done! Now access to [http://localhost:3000/api/example](http://localhost:3000/api/example) it should return following json:
+Done! Now you can access it via [http://localhost:3000/api/example](http://localhost:3000/api/example), it should return the following json:
 
 ```json
 {
