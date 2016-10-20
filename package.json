@@ -1,6 +1,6 @@
 {
   "name": "iwak-framework",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A node micro-framework based on express.js",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "micro-framework",
     "expressjs-mvc"
   ],
-  "author": "IWAK Developers <developer@iwak.me>",
+  "author": "IWAK Developers <developers@iwak.me>",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.15.2",
