@@ -167,7 +167,7 @@ Finally, set the environment variable in the `.env` file:
 + DB_USERNAME=
 + DB_PASSWORD=
 + DB_MIN_CONNECTION=1
-+ DB_MAX_CONNECTION=
++ DB_MAX_CONNECTION=1
 + 
 + TOKEN_SECRET=secret
 ```
