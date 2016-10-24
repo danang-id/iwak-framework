@@ -1,6 +1,8 @@
 # iwak-framework
 A node micro-framework based on express.js
 
+## Requirements
+* NPM version 3 (Recommended to use Nodejs v6 LTS)
 
 ## Installation
 
@@ -12,7 +14,7 @@ $ npm install --save iwak-framework
 
 ## Getting Started
 
-> This is minimal configuration tutorial to make your project running.
+> Because this is core of framework, you should follow this configuration tutorial to make your project running.
 
 First of all, you need to make a project structure like this:
 
