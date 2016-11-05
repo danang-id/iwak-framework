@@ -1,6 +1,6 @@
 {
   "name": "iwak-framework",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A node micro-framework based on express.js",
   "main": "index.js",
   "scripts": {
