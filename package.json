@@ -13,6 +13,7 @@
   "author": "IWAK Developers <developers@iwak.me>",
   "license": "MIT",
   "dependencies": {
+    "ajv": "^4.9.0",
     "body-parser": "^1.15.2",
     "bookshelf": "^0.10.2",
     "dotenv": "^2.0.0",
