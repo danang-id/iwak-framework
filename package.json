@@ -1,7 +1,7 @@
 {
   "name": "iwak-framework",
-  "version": "1.0.8",
-  "description": "A node micro-framework based on express.js",
+  "version": "1.0.9",
+  "description": "A node micro-framework based on express.js [UNRELEASED]",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
